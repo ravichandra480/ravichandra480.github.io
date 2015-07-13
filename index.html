@@ -1,0 +1,495 @@
+<html lang="en" ng-app="CvApp">
+<head>
+    <link rel="stylesheet" href="vendors/css/angular-material.min.css">
+    <link rel="stylesheet" href="vendors/css/roboto.css">
+    <link rel="stylesheet" href="vendors/css/btsp/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/css/font-awesome.css">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="initial-scale=1" />
+</head>
+<body nice-scroll >
+
+    <main  ng-controller="CvCtrl">
+        <header class="cv-header" smooth-scroll >
+            <nav class="navbar navbar-default margin-bottom-0" header-anim>
+                <div class="container">
+                    <div class="collapse navbar-collapse navbar-right" id="cv-navbar">
+
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a data-scroll href="#about-me">About Me</a>
+                            </li>
+                            <li>
+                                <a data-scroll href="#resume">Resume</a>
+                            </li>
+                            <li>
+                                <a data-scroll href="#contact">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section id="home" class="scroll-section home-wrap">
+            <div class="sec-overlay">
+                <div class="container margin-top-fix">
+                    <div class="row">
+                        <div class="col-md-12" >
+                            <div class="center-align about-me ">
+                                <h1 class="home-title">HI! I'm <span>Ravi Chandra</span></h1>
+                                <h2 class="home-subtitle">Full Stack Web Developer from Chennai, India</h2>
+                                <div>
+                                    <a data-scroll href="#contact">
+                                        <md-button class="md-raised md-primary contact-btn">
+                                            <i class="fa fa-paper-plane"></i>
+                                            Contact Me
+                                        </md-button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="nav-to-next">
+            <a data-scroll href="#about-me">
+                <md-button class="md-fab md-raised next" aria-label="About me">
+                    <i class="fa fa-angle-down"></i>
+                </md-button>
+            </a>
+        </section>
+
+        <section class="gray-bg scroll-section">
+            <div class="container">
+                <div class="row about" id="about-me">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                        <div class="person-about">
+                            <h3 class="about-subtitle">My Story</h3>
+                            <p>Hello, I'm a Front End Developer and UI/UX Designer from Chennai, India.
+                                I hold a bachelor's degree in Electronics and Communication Engineering. <br>
+                                And had worked more than 4 years in developing web applications End-to-End</p>
+
+                             <a href="resources/Ravi%20Chandra%20Ravulapati.pdf">
+                                <md-button class="md-raised md-primary contact-btn">
+                                    <i class="fa fa-download"></i>
+                                    Download Resume
+                                </md-button>
+                             </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="thumbnail person-image">
+                            <img ng-src="imgs/i.jpg" class="md-card-image" alt="Washed Out">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="person-info">
+                            <h3 class="about-subtitle">Personal Information</h3>
+                            <h5><span>Name :</span> Ravi Chandra Ravulapati</h5>
+                            <h5><span>Phone :</span> +91 - 9840976404</h5>
+                            <h5><span>Email :</span> ravichandra480@gmail.com</h5>
+                            <h5><span>Address :</span> Chennai, India</h5>
+                        </div>
+                        <div>
+                            <a target="_blank" href="http://www.linkedin.com/pub/ravichandra-ravulapati/15/7a5/897">
+                                <md-button class="md-fab md-mini md-raised main-color" aria-label="linkedin">
+                                    <i class="fa fa-linkedin"></i>
+                                </md-button>
+                            </a>
+                            <a target="_blank" href="http://www.twitter.com/ravichandrar480">
+                                <md-button class="md-fab md-mini md-raised main-color" aria-label="twitter">
+                                    <i class="fa fa-twitter"></i>
+                                </md-button>
+                            </a>
+                            <a target="_blank" href="http://www.github.com/ravichandra480">
+                                <md-button class="md-fab md-mini md-raised main-color" aria-label="git">
+                                    <i class="fa fa-git"></i>
+                                </md-button>
+                            </a>
+                            <a target="_blank" href="http://www.plus.google.com/+RaviChandra480/posts">
+                                <md-button class="md-fab md-mini md-raised main-color" aria-label="google plus">
+                                    <i class="fa fa-google-plus"></i>
+                                </md-button>
+                            </a>
+                            <a target="_blank" href="http://www.behance.net/ravichandr4f4c">
+                                <md-button class="md-fab md-mini md-raised main-color" aria-label="behance">
+                                    <i class="fa fa-behance"></i>
+                                </md-button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume">
+            <div class="resume-bg">
+                <div class="sec-overlay-lite">
+                    <div class="container">
+                    <div class="row"  id="resume">
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="skill-left">
+                                <h2 class="title">Skills</h2>
+                                <p class="regular-text">
+                                    Man behind the gun, any sophisticated weapons. Human remains that taking the role.
+                                    We are experienced in utilizing all resources.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12" >
+                            <div class="row">
+                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 wraper-mrgn">
+                                    <div skill-bar >
+                                        <h3>Core skills</h3>
+                                        <div class="skill-wraper">
+                                            <div class="skillst">
+                                                <div class="skillbar" data-percent="78%">
+                                                    <div class="title">HTML 5</div>
+                                                    <div class="count-bar color-1">
+                                                        <div class="count"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="skillbar" data-percent="70%">
+                                                    <div class="title">CSS 3</div>
+                                                    <div class="count-bar color-2">
+                                                        <div class="count"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="skillbar" data-percent="75%">
+                                                    <div class="title">less</div>
+                                                    <div class="count-bar color-4">
+                                                        <div class="count"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="skillbar" data-percent="90%">
+                                                    <div class="title">Twitter Bootstrap</div>
+                                                    <div class="count-bar color-4">
+                                                        <div class="count"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="skillbar" data-percent="80%">
+                                                    <div class="title">javascript</div>
+                                                    <div class="count-bar color-4">
+                                                        <div class="count"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="skillbar" data-percent="60%">
+                                                    <div class="title">angularjs</div>
+                                                    <div class="count-bar color-3">
+                                                        <div class="count"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="skillbar" data-percent="60%">
+                                                    <div class="title">jquery</div>
+                                                    <div class="count-bar color-4">
+                                                        <div class="count"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="skillbar" data-percent="60%">
+                                                    <div class="title">RequireJs</div>
+                                                    <div class="count-bar color-1">
+                                                        <div class="count"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="skillbar" data-percent="60%">
+                                                    <div class="title">nodejs</div>
+                                                    <div class="count-bar color-3">
+                                                        <div class="count"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="skillbar" data-percent="50%">
+                                                    <div class="title">j2ee</div>
+                                                    <div class="count-bar color-4">
+                                                        <div class="count"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="skillbar" data-percent="40%">
+                                                    <div class="title">Photoshop</div>
+                                                    <div class="count-bar color-5">
+                                                        <div class="count"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wraper-tqn">
+                                    <h3>Techniques</h3>
+
+                                    <div id="content">
+                                        <div id="diagram"></div>
+                                        <div class="legend">
+                                            <div class="skills">
+                                                <ul>
+                                                    <li class="jq">Accessibility</li>
+                                                    <li class="css">Progressive enhancement</li>
+                                                    <li class="html">Cross browser compliance</li>
+                                                    <li class="php">SEO</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="get">
+                                        <div class="arc">
+                                            <span class="text">Accessibility</span>
+                                            <input type="hidden" class="percent" value="80" />
+                                            <input type="hidden" class="color" value="#97BE0D" />
+                                        </div>
+                                        <div class="arc">
+                                            <span class="text">Progressive enhancement</span>
+                                            <input type="hidden" class="percent" value="80" />
+                                            <input type="hidden" class="color" value="#D84F5F" />
+                                        </div>
+                                        <div class="arc">
+                                            <span class="text">Cross browser compliance</span>
+                                            <input type="hidden" class="percent" value="70" />
+                                            <input type="hidden" class="color" value="#88B8E6" />
+                                        </div>
+                                        <div class="arc">
+                                            <span class="text">SEO</span>
+                                            <input type="hidden" class="percent" value="50" />
+                                            <input type="hidden" class="color" value="#BEDBE9" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="sec-overlay-drk">
+                <div class="container experience">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h2 class="title">Experience</h2>
+                            <p class="regular-text">
+                                Working as <b>ITA</b> with <b>Tata Consultancy Services</b>, Chennai India.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 " layout-fill>
+                            <div class="card">
+                               <h2 class="card-title-top">January 2010 - February 2011</h2>
+                               <div class="card-content">
+                                    Worked as Assistent Professor in Electronics and Communication Engineering<br/><br/>
+                                   [MATLAB, VLSI, STLD, EDC]
+                               </div>
+                                <div class="card-title-bottom">
+                                    <span class="card-title">
+                                         Assistent Professor
+                                        <i class="fa fa-ellipsis-v pull-right"></i>
+                                    </span>
+                                    <p>GEC (Afliated to JNTUK)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" layout-fill>
+                            <div class="card">
+                                <h2 class="card-title-top">March 2011 - Present</h2>
+                                <div class="card-content">
+                                    System Engineer with Tata Consultancy Services, Chennai<br/><br/>
+                                    [Architecture, development, implementation and Research]
+                                </div>
+                                <div class="card-title-bottom">
+                                    <span class="card-title">
+                                        Full Stack Web developer
+                                        <i class="fa fa-ellipsis-v pull-right"></i>
+                                    </span>
+                                    <p>TCS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-overlay-lite">
+                <div class="container education">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h2 class="title">Education</h2>
+                            <p class="regular-text">
+                                Bachelor of Engineering in Electronics & Communication Engineering, worked on MATLAB 7.0.1
+                                to implement the algorithms for smart antennas to improve intra cell channel reuses.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" layout-fill>
+                            <div class="card">
+                                <h2 class="card-title-top">July 2002 - June 2003</h2>
+                                <div class="card-content">
+                                    Secondary School Certificate, (Secured 80%)
+                                </div>
+                                <div class="card-title-bottom">
+                                    <span class="card-title">
+                                       State Board
+                                       <i class="fa fa-ellipsis-v pull-right"></i>
+                                    </span>
+                                    <p>C.P.M High School (State Board)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" layout-fill>
+                            <div class="card">
+                                <h2 class="card-title-top">July 2003 - June 2005</h2>
+                                <div class="card-content">
+                                    10+2 (Maths, Physics, Chemistry), (Secured 92%)
+                                </div>
+                                <div class="card-title-bottom">
+                                    <span class="card-title">
+                                        M.P.C
+                                        <i class="fa fa-ellipsis-v pull-right"></i>
+                                    </span>
+                                    <p>Satya Junior College,</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" layout-fill>
+                            <div class="card">
+                                <h2 class="card-title-top">July 2005 - June 2009</h2>
+                                <div class="card-content">
+                                    Bachelor of Engineering in Electronics & Communication Engineering,<br/> (Secured 75% First Class)
+                                </div>
+                                <div class="card-title-bottom">
+                                    <span class="card-title">
+                                        ECE
+                                        <i class="fa fa-ellipsis-v pull-right"></i>
+                                    </span>
+                                    <p>Gudlavalleru Engineering College</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-overlay-drk">
+            <div class="contact container"  id="contact">
+
+                <h2 class="title">Contact</h2>
+                <p class="regular-text">Chennai 600097 Tamil Nadu  India</p>
+                <ul class="clearfix contact-info">
+                    <li><a href="">+91 9840976404</a>
+                    </li>
+                    <li><a href="">ravichandra480@gmail.com</a>
+                    </li>
+                </ul>
+
+                <div class="row" >
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                        <div class="map">
+                            <map zoom="4" center="12.9462, 80.2355" on-center-changed="centerChanged()">
+                                <marker position="12.9462, 80.2355" on-click="click()" title="Click to zoom"></marker>
+                            </map>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                        <div class="card">
+                            <md-content layout-padding>
+                                <form name="userForm">
+                                    <div>
+                                        <md-input-container flex>
+                                            <label>Name</label>
+                                            <input ng-model="user.firstName">
+                                        </md-input-container>
+                                        <md-input-container flex>
+                                            <label>Email</label>
+                                            <input ng-model="user.firstName">
+                                        </md-input-container>
+                                        <md-input-container flex>
+                                            <label>Subject</label>
+                                            <input ng-model="user.firstName">
+                                        </md-input-container>
+                                        <md-input-container flex>
+                                            <label>Message</label>
+                                            <textarea ng-model="user.biography" columns="1" md-maxlength="150"></textarea>
+                                        </md-input-container>
+                                    </div>
+                                    <md-button class="md-raised md-primary contact-btn">SEND MESSAGE</md-button>
+                                </form>
+                            </md-content>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="nav-to-next">
+            <a data-scroll href="#home">
+                <md-button class="md-fab md-raised next" aria-label="home">
+                    <i class="fa fa-angle-up"></i>
+                </md-button>
+            </a>
+        </section>
+
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="clearfix">
+                            <ul class="pull-left">
+                                <li>
+                                    <a target="_blank" href="http://www.linkedin.com/pub/ravichandra-ravulapati/15/7a5/897" class="tooltips tooltipped linkedin" data-position="top" data-delay="50" data-tooltip="Linkdin"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="http://www.twitter.com/ravichandrar480" class="tooltips tooltipped twitter" data-position="top" data-delay="50" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="http://www.plus.google.com/+RaviChandra480/posts" class="tooltips tooltipped google-plus" data-position="top" data-delay="50" data-tooltip="Google Plus"><i class="fa fa-google-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="http://www.behance.net/ravichandr4f4c" class="tooltips tooltipped behance" data-position="top" data-delay="50" data-tooltip="Behance"><i class="fa fa-behance"></i></a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="http://www.behance.net/ravichandr4f4c" class="tooltips tooltipped behance" data-position="top" data-delay="50" data-tooltip="git"><i class="fa fa-git"></i></a>
+                                </li>
+                            </ul> <!-- ./social icons end -->
+                            <div class="pull-right copyright">
+                                <p>2015 @ All Rights Reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- ./container end-->
+        </footer>
+        <md-toolbar class="md-warn">
+            <div class="md-toolbar-tools">
+                <h2 class="md-flex">Under development</h2>
+            </div>
+        </md-toolbar>
+    </main>
+<!-- Angular Material Dependencies -->
+<script src="vendors/js/jquery-2.1.4.min.js"></script>
+<script src="vendors/js/angular.min.js"></script>
+<script src="vendors/js/angular-animate.min.js"></script>
+<script src="vendors/js/angular-aria.min.js"></script>
+
+<script src="vendors/js/angular-material.min.js"></script>
+
+<script src="vendors/js/btsp/bootstrap.min.js"></script>
+<script src="vendors/js/smooth-scroll.js"></script>
+<script src="vendors/js/jquery.nicescroll.js"></script>
+<script src="//maps.google.com/maps/api/js"></script>
+<script src="vendors/js/ng-map.min.js"></script>
+<script src="vendors/js/jquery.appear.js"></script>
+
+<script src="vendors/js/raphael.js"></script>
+<script src="vendors/js/init.js"></script>
+<script src="main.js"></script>
+
+<script>
+
+</script>
+</body>
+</html>
