@@ -13,7 +13,7 @@
 <body nice-scroll >
 
     <main  ng-controller="CvCtrl">
-        <header class="cv-header" smooth-scroll >
+        <header class="cv-header hidden-sm hidden-xs" smooth-scroll >
             <nav class="navbar navbar-default margin-bottom-0" header-anim>
                 <div class="container">
                     <div class="collapse navbar-collapse navbar-right" id="cv-navbar">
@@ -42,7 +42,7 @@
                             <div class="center-align about-me ">
                                 <h1 class="home-title">HI! I'm <span>Ravi Chandra</span></h1>
                                 <h2 class="home-subtitle">Full Stack Web Developer from Chennai, India</h2>
-                                <div>
+                                <div class="hidden-sm hidden-xs">
                                     <a data-scroll href="#contact">
                                         <md-button class="md-raised md-primary contact-btn">
                                             <i class="fa fa-paper-plane"></i>
@@ -68,7 +68,7 @@
         <section class="gray-bg scroll-section">
             <div class="container">
                 <div class="row about" id="about-me">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                         <div class="person-about">
                             <h3 class="about-subtitle">My Story</h3>
                             <p>Hello, I'm a Front End Developer and UI/UX Designer from Chennai, India.
@@ -83,12 +83,12 @@
                              </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-sm hidden-xs">
                         <div class="thumbnail person-image">
                             <img ng-src="imgs/i.jpg" class="md-card-image" alt="Washed Out">
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <div class="person-info">
                             <h3 class="about-subtitle">Personal Information</h3>
                             <h5><span>Name :</span> Ravi Chandra Ravulapati</h5>
@@ -169,6 +169,12 @@
                                                 </div>
                                                 <div class="skillbar" data-percent="90%">
                                                     <div class="title">Twitter Bootstrap</div>
+                                                    <div class="count-bar color-4">
+                                                        <div class="count"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="skillbar" data-percent="60%">
+                                                    <div class="title">Angular Material</div>
                                                     <div class="count-bar color-4">
                                                         <div class="count"></div>
                                                     </div>
@@ -279,7 +285,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 " layout-fill>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 " layout-fill>
                             <div class="card">
                                <h2 class="card-title-top">January 2010 - February 2011</h2>
                                <div class="card-content">
@@ -295,7 +301,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" layout-fill>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" layout-fill>
                             <div class="card">
                                 <h2 class="card-title-top">March 2011 - Present</h2>
                                 <div class="card-content">
@@ -311,7 +317,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" layout-fill>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-sm hidden-xs" layout-fill>
                             <div class="card card-future">
                                 <h2 class="card-title-top"></h2>
                                 <div class="card-content">
@@ -325,7 +331,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" layout-fill>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-sm hidden-xs" layout-fill>
                             <div class="card card-future">
                                 <h2 class="card-title-top"></h2>
                                 <div class="card-content">
@@ -354,7 +360,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" layout-fill>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" layout-fill>
                             <div class="card">
                                 <h2 class="card-title-top">July 2002 - June 2003</h2>
                                 <div class="card-content">
@@ -369,7 +375,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" layout-fill>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" layout-fill>
                             <div class="card">
                                 <h2 class="card-title-top">July 2003 - June 2005</h2>
                                 <div class="card-content">
@@ -384,7 +390,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" layout-fill>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" layout-fill>
                             <div class="card">
                                 <h2 class="card-title-top">July 2005 - June 2009</h2>
                                 <div class="card-content">
@@ -399,7 +405,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" layout-fill>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-sm hidden-xs" layout-fill>
                             <div class="card card-future">
                                 <h2 class="card-title-top"></h2>
                                 <div class="card-content"></div>
