@@ -1,7 +1,7 @@
 /**
  * Created by Ravi on 11-07-2015.
  */
-var app = angular.module('CvApp', ['ngMaterial', 'ngMap']);
+var app = angular.module('CvApp', ['ngMaterial', 'ngMap', 'typer']);
 
 app.controller('CvCtrl', ['$scope', '$log', function($scope, $log){
     $scope.user = {
@@ -32,7 +32,7 @@ app.directive('smoothScroll', function() {
             });
         }
     };
-})
+});
 
 app.directive('niceScroll', function() {
     return {
@@ -42,7 +42,7 @@ app.directive('niceScroll', function() {
             $("body").niceScroll();
         }
     };
-})
+});
 
 app.directive('skillBar', function() {
     return {
@@ -60,7 +60,7 @@ app.directive('skillBar', function() {
             });
         }
     };
-})
+});
 
 app.directive('headerAnim', function() {
     return {
